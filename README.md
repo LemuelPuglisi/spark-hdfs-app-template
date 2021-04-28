@@ -68,3 +68,11 @@ To test your application run:
 $ ./exec.sh
 ```
 
+
+
+## Scripts
+
+- **build.sh**: you can use it to rebuild or build the containers.
+- **start-spark.sh**: you can use it to start the containers.
+- **stop-spark.sh**: you can use it to stop the containers.
+- **remove-spark.sh**: you can use it to remove the containers.
