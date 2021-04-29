@@ -48,15 +48,13 @@ Now you can access to this file at from other containers  using the URI "hdfs://
 
 ### Automatically load the data
 
-Still working on this section. Anyway, if you run: 
+Running: 
 
 ```bash
-$ ./upload.sh /path/to/file.csv file.csv
+$ ./upload.sh /path/to/file.csv /dst_dir/
 ```
 
-this will upload your file.csv into a directory called "input" in HDFS. 
-
-
+will upload your file.csv into a directory called "dst_dir" in HDFS. 
 
 ## Write a python app
 
